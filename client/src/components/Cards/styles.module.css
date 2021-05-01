@@ -1,0 +1,38 @@
+.cards {
+ 
+  display: grid;
+  grid-template-columns: 25% 25%  25% 25%; /* columna dos espacios */ 
+  grid-template-rows: auto;
+  grid-template-areas: 'item item2';
+  margin-top: 50px;
+  padding: 20px 50px;
+  column-count: 3;
+
+}
+.item{
+    grid-area: item;
+}
+.item2{
+  grid-area: item2;
+}
+.paginationBttns{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+  padding: 20px 45%;
+}
+.paginationBttns button {
+  background-color: steelblue;
+  border-radius: 3px;
+  padding: 5px 5px 5px 5px;
+  border: 3px solid #ddd;
+  font-size: 18px;
+  color: aliceblue;
+ }
+ 
+ button:hover{
+   background-color: lemonchiffon;
+   color: cornflowerblue;
+ }

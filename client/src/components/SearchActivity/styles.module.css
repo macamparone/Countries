@@ -1,0 +1,47 @@
+.container {
+  padding: 15px;
+  width: 100%;
+  
+  }
+  .formcontainer{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+		width: 100%;
+     padding: 4% auto;
+ 
+}
+
+.formcontainer input{
+
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 30%;
+    background: #f1f1f1;
+    
+  }
+  
+  .searchButton{
+    float: left;
+    width: 10%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  
+  }
+  .searchAct{
+    width: 100%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }

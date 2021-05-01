@@ -1,0 +1,8 @@
+.activity{
+    background-image:url('../../assets/home2.jpg');
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-repeat: repeat;
+   
+}

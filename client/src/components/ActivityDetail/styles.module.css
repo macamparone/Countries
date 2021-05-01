@@ -1,0 +1,72 @@
+.container {	
+    background-image:url('../../assets/home2.jpg');
+    width: 100vw;
+    min-height: 100vh;
+    max-height: fit-content;
+    background-repeat: repeat;
+   
+}
+.activity{
+    height: 35%;
+    width: 40%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card img{
+	display: block;
+	width: 47%;
+	height: 4%;
+	border: 1px solid #021a40;
+    max-width: 200px;
+	max-width: 200px;
+}
+.activity_details {
+	width: 50%;
+	padding: 29px;
+	justify-items: center;
+	text-align: center;
+	font-size: 20px;
+	background: rgb(199, 184, 187);
+    
+}
+.card_details  h1 {
+	font-size: 30px;
+	text-align: center;
+}
+.card_left {
+	width: 90%;
+	justify-items: center;
+}
+.social-btn {
+	margin-left: -10px;
+}
+.card_button {
+	display: inline;
+	justify-content:space-between;
+	color: #fff;
+	border: none;
+	padding: 20px;
+	outline: none;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-left: 10px;
+	background: #0925c0;
+	border-radius: 12px;
+}
+.span{
+margin-left: 0.1rem;
+padding: 0.1rem 0.4rem;
+background-color:#abacb3;
+color: white;
+border-radius: 0.4rem;
+}
+.span2{
+	margin-left: 0.1rem;
+	padding: 0.1rem 0.4rem;
+	background-color:#78bda6;
+	color: white;
+	border-radius: 0.4rem;
+	}
